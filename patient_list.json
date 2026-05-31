@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Bob Marshall",
+        "age": 25,
+        "sex": "m",
+        "condition": "common cold",
+        "status": "waiting"
+    }
+]
