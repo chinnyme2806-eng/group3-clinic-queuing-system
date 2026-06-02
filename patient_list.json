@@ -5,7 +5,7 @@
         "age": 25,
         "sex": "Male",
         "condition": "common cold",
-        "status": "in_progress"
+        "status": "done"
     },
     {
         "id": 2,
@@ -13,6 +13,14 @@
         "age": 23,
         "sex": "Female",
         "condition": "brain tumor",
+        "status": "in_progress"
+    },
+    {
+        "id": 3,
+        "name": "Bob Marshall",
+        "age": 35,
+        "sex": "Male",
+        "condition": "dementia",
         "status": "waiting"
     }
 ]
