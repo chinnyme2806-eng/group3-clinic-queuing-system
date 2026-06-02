@@ -1,10 +1,18 @@
 [
     {
         "id": 1,
-        "name": "Bob Marshall",
+        "name": "John Doe",
         "age": 25,
-        "sex": "m",
+        "sex": "Male",
         "condition": "common cold",
+        "status": "in_progress"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 23,
+        "sex": "Female",
+        "condition": "brain tumor",
         "status": "waiting"
     }
 ]
