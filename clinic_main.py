@@ -2,9 +2,9 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import queue_data  # backend
 
-# ------------------------
+# --------------------------
 # Helper: load patients into table
-# ------------------------
+# --------------------------
 
 def load_patients_into_table():
     tree.delete(*tree.get_children())  # clear table first
@@ -294,6 +294,7 @@ tk.Button(
     text="Update Info",
     command=open_update_window
 ).pack(side="left", padx=5)
+
 
 # Load existing patients from JSON on startup
 load_patients_into_table()

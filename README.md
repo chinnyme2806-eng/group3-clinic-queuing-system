@@ -9,6 +9,7 @@ A desktop-based clinic queue management application built with Python and Tkinte
 - Add new patients with ID, name, age, sex, and condition
 - View all patients in a sortable table
 - Update patient queue status (Waiting, In Progress, Done)
+- Update patient queue info (name, age, sex, condition)
 - Delete patients from the queue
 - Persistent storage via JSON — data is saved and reloaded on every launch
 - Duplicate patient ID detection
@@ -53,6 +54,7 @@ python clinic_main.py
 Once open, you can:
 - Fill in the form fields and click **Add Patient** to register a patient
 - Select a row in the table and use the dropdown to **Update Status**
+- Select a row in the table and click **Update Info** and a fill in the form fields and click **Save Changes** or **Cancel**
 - Select a row and click **Delete Patient** to remove them from the queue
 
 ---
@@ -82,13 +84,13 @@ clinic-queuing-system/
 
 ## Authors
 
-| Role             | Name                  |
-|------------------|-----------------------|
-| Project Manager  | Chinnyme Adizas       |
-| Backend          | Jhomar Tañeza         |
-| Frontend         | Benj Kleyton Yu       |
-| QA               | Joy Marcos            |
-| Client           | Genica Lacandazo      |
+| Role             | Name             |
+|------------------|------------------|
+| Project Manager  | Chinnyme Adizas  |
+| Backend          | Jhomar Tañeza    |
+| Frontend         | Benj Kleyton Yu  |
+| QA               | Mae Joy Marcos   |
+| Client           | Genica Lacandazo |
 
 
 ---

@@ -22,13 +22,5 @@
         "sex": "Male",
         "condition": "dementia",
         "status": "done"
-    },
-    {
-        "id": 4,
-        "name": "Dominic Toretto",
-        "age": 22,
-        "sex": "Male",
-        "condition": "fractured ankle",
-        "status": "waiting"
     }
 ]

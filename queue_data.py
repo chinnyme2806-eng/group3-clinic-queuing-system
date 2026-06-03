@@ -3,6 +3,7 @@ import os
 
 DATA_FILE = "patient_list.json"
 
+
 def load_data():
     """
     Load patient data from the JSON file.
