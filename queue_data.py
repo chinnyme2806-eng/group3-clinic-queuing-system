@@ -34,12 +34,20 @@ def add_patient(patient):
     """
     Add a new patient to the queue.
     Raises ValueError if a patient with the same ID already exists.
+    Or if age is negative.
     """
     data = load_data()
     # Check for duplicate ID
     for p in data:
         if p['id'] == patient['id']:
             raise ValueError(f"Patient with ID {patient['id']} already exists.")
+    # Validate ID
+    if patient['id'] < 0:
+        raise ValueError("Patient ID cannot be negative.")
+    # Validate age
+    if patient['age'] < 0:
+        raise ValueError("Age cannot be negative.")
+
     data.append(patient)
     save_data(data)
 
@@ -62,7 +70,10 @@ def update_patient_info(patient_id, name, age, sex, condition):
     """
     Update the information fields of a patient (not the status).
     Returns True if the patient was found and updated, False otherwise.
+    Raises ValueError if age is negative.
     """
+    if age < 0:
+        raise ValueError("Age cannot be negative.")
     data = load_data()
     for p in data:
         if p['id'] == patient_id:

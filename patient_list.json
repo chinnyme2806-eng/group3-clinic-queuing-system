@@ -5,14 +5,14 @@
         "age": 25,
         "sex": "Male",
         "condition": "common cold",
-        "status": "done"
+        "status": "waiting"
     },
     {
         "id": 2,
         "name": "Jane Smith",
-        "age": 23,
+        "age": 24,
         "sex": "Female",
-        "condition": "brain tumor",
+        "condition": "brain cancer",
         "status": "in_progress"
     },
     {
@@ -21,6 +21,14 @@
         "age": 35,
         "sex": "Male",
         "condition": "dementia",
+        "status": "done"
+    },
+    {
+        "id": 4,
+        "name": "Dominic Toretto",
+        "age": 22,
+        "sex": "Male",
+        "condition": "fractured ankle",
         "status": "waiting"
     }
 ]
