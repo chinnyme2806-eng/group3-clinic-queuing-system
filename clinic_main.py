@@ -117,7 +117,7 @@ root.geometry("900x600")
 title = tk.Label(
     root,
     text="CLINIC QUEUE SYSTEM",
-    font=("Arial", 18, "bold")
+    font=("Arial", 19, "bold")
 )
 title.pack(pady=10)
 
