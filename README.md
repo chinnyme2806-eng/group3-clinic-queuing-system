@@ -95,4 +95,4 @@ clinic-queuing-system/
 
 ## License
 
-This project was developed for academic purposes. All rights reserved by the project team.
+This project was developed for academic purposes. All rights reserved by the project team. 2026
