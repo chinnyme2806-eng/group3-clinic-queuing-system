@@ -13,6 +13,7 @@ A desktop-based clinic queue management application built with Python and Tkinte
 - Delete patients from the queue
 - Persistent storage via JSON — data is saved and reloaded on every launch
 - Duplicate patient ID detection
+- Negative integer ID and Age detection
 
 ---
 
